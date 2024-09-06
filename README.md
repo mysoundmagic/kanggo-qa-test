@@ -69,7 +69,6 @@ The TestNG reports can be found in the `test-ouput/Suite` directory. The reports
 ## Project Structure
 
 - `src/main/java`: Contains the main Java code.
-- `src/test/java`: Contains the test scripts.
 - `pom.xml`: Maven configuration file, which includes all dependencies.
 - `testng.xml`: TestNG suite configuration file.
 
@@ -81,12 +80,3 @@ The key dependencies used in this project include:
 - **TestNG**: Testing framework.
 - **Java Spring**: Dependency injection and other utilities.
 - **Maven**: Build automation tool.
-
-## Contributing
-
-If you want to contribute to this project, please fork the repository and make changes as you'd like. Pull requests are welcome.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
