@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<parameter name="url" value="https://www.kanggo.id" />
+	<test thread-count="5" parallel="tests" name="Test">
+		<classes>
+			<class name="testScript.testkanggoIndex" />
+			<class name="testScript.testkanggoKonsumen" />
+			<class name="testScript.testkanggoPerusahaan" />
+			<class name="testScript.testkanggoUtkTukangJagoan" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
