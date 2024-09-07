@@ -70,13 +70,5 @@ The TestNG reports can be found in the `test-ouput/Suite` directory. The reports
 
 - `src/main/java`: Contains the main Java code.
 - `pom.xml`: Maven configuration file, which includes all dependencies.
-- `testng.xml`: TestNG suite configuration file.
-
-## Dependencies
-
-The key dependencies used in this project include:
-
-- **Selenium WebDriver**: For web browser automation.
-- **TestNG**: Testing framework.
-- **Java Spring**: Dependency injection and other utilities.
-- **Maven**: Build automation tool.
+- `testng.xml`: TestNG suite configuration file
+- `api` folder : contains json collection for postman
