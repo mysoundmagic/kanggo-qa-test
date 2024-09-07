@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
-
 public class setup {
 	public WebDriver driver;
 	public WebDriverWait wait;

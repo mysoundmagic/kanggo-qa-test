@@ -10,12 +10,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class pomPerbaikiBangunanPerusahaan {
-	
+
 	public By perbaikiBangunanPerusahaanText = By.xpath("//*[@id='__next']//section[1]/div[2]/h2");
-	
+
 	public void assertTextHeaderPerush(WebDriver driver) {
-	String textBangPerush = driver.findElement(perbaikiBangunanPerusahaanText).getText();
-	assertEquals(textBangPerush, "Kelola Bangunan Bisnis dengan Nyaman Bersama Kanggo");
+		String textBangPerush = driver.findElement(perbaikiBangunanPerusahaanText).getText();
+		assertEquals(textBangPerush, "Kelola Bangunan Bisnis dengan Nyaman Bersama Kanggo");
 	}
-	
+
 }

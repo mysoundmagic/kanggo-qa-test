@@ -37,7 +37,6 @@ public class pomPerbaikiBangunanKonsumen {
                 throw new AssertionError("Teks tidak sesuai untuk elemen ke-" + (i + 1) + ". Diharapkan: " + expectedTextSolusiKonsumen.get(i) + ", Ditemukan: " + text);
             }
 		}
-		
 	}
 	
 }

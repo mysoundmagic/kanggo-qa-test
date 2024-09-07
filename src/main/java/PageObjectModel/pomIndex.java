@@ -21,16 +21,10 @@ public class pomIndex {
 	/* header Menu */
 	public By beranda = By.xpath("//*[@id='__next']//nav/a[1]");
 	public By h2TextBeranda = By.xpath("//*[@id='__next']//section/div/div/h2");
-	
 	public By perbaikiBangunan = By.xpath("//*[@id='__next']//nav/div[1]/button[1]");
 	public By perbaikiBangunanKonsumen = By.xpath("//*[@id='__next']//nav/div[1]/div[1]/div[1]/a[1]");
-	
-	
 	public By perbaikiBangunanPerusahaan = By.xpath("//*[@id='__next']//nav/div[1]/div[1]/div[1]/a[2]");
-	
-	
 	public By perbaikiBangunanTukgJagoan = By.xpath("//*[@id='__next']//nav/div[1]/div[1]/div[1]/a[3]");
-	
 	public By ciptakanPekerjaan = By.xpath("//*[@id='__next']//nav/a[2]");
 	public By inilahKanggo = By.xpath("//*[@id='__next']//nav/a[3]");
 	public By hubKami = By.xpath("//*[@id='__next']//section[1]/div[7]/a");

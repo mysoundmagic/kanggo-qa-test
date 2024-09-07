@@ -1,69 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="3" total="7" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-06T14:37:44 WIB" name="Suite" finished-at="2024-09-06T14:37:56 WIB" duration-ms="12055">
+  <suite started-at="2024-09-07T09:49:17 WIB" name="Suite" finished-at="2024-09-07T09:49:22 WIB" duration-ms="4067">
     <groups>
     </groups>
-    <test started-at="2024-09-06T14:37:44 WIB" name="Test" finished-at="2024-09-06T14:37:56 WIB" duration-ms="12055">
+    <test started-at="2024-09-07T09:49:17 WIB" name="Test" finished-at="2024-09-07T09:49:22 WIB" duration-ms="4067">
       <class name="testScript.testkanggoUtkTukangJagoan">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScript.testkanggoUtkTukangJagoan@4facf68f]" started-at="2024-09-06T14:37:53 WIB" name="setUp" finished-at="2024-09-06T14:37:54 WIB" duration-ms="1849" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.kanggo.id]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testScriptKanggo()[pri:0, instance:testScript.testkanggoUtkTukangJagoan@4facf68f]" started-at="2024-09-06T14:37:54 WIB" name="testScriptKanggo" finished-at="2024-09-06T14:37:56 WIB" duration-ms="1296" status="PASS">
+        <test-method signature="testScriptKanggo()[pri:0, instance:testScript.testkanggoUtkTukangJagoan@4ac3c60d]" started-at="2024-09-07T09:49:22 WIB" name="testScriptKanggo" finished-at="2024-09-07T09:49:22 WIB" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "wait" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "wait" is null
+at PageObjectModel.pomIndex.waitLoaded(pomIndex.java:17)
+at PageObjectModel.pomIndex.pilihMenuHeader(pomIndex.java:33)
+at testScript.testkanggoUtkTukangJagoan.testScriptKanggo(testkanggoUtkTukangJagoan.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptKanggo -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScript.testkanggoUtkTukangJagoan@4facf68f]" started-at="2024-09-06T14:37:56 WIB" name="tearDown" finished-at="2024-09-06T14:37:56 WIB" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScript.testkanggoUtkTukangJagoan@4ac3c60d]" started-at="2024-09-07T09:49:22 WIB" name="tearDown" finished-at="2024-09-07T09:49:22 WIB" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScriptKanggo status=SUCCESS method=testkanggoUtkTukangJagoan.testScriptKanggo()[pri:0, instance:testScript.testkanggoUtkTukangJagoan@4facf68f] output={null}]]]>
+                <![CDATA[[TestResult name=testScriptKanggo status=FAILURE method=testkanggoUtkTukangJagoan.testScriptKanggo()[pri:0, instance:testScript.testkanggoUtkTukangJagoan@4ac3c60d] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at testScript.testkanggoUtkTukangJagoan.tearDown(testkanggoUtkTukangJagoan.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:785)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:761)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testScript.testkanggoUtkTukangJagoan -->
       <class name="testScript.testkanggoPerusahaan">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScript.testkanggoPerusahaan@4ac3c60d]" started-at="2024-09-06T14:37:50 WIB" name="setUp" finished-at="2024-09-06T14:37:52 WIB" duration-ms="1933" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.kanggo.id]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testScriptKanggo()[pri:0, instance:testScript.testkanggoPerusahaan@4ac3c60d]" started-at="2024-09-06T14:37:52 WIB" name="testScriptKanggo" finished-at="2024-09-06T14:37:52 WIB" duration-ms="444" status="PASS">
+        <test-method signature="testScriptKanggo()[pri:0, instance:testScript.testkanggoPerusahaan@3911c2a7]" started-at="2024-09-07T09:49:22 WIB" name="testScriptKanggo" finished-at="2024-09-07T09:49:22 WIB" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "wait" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "wait" is null
+at PageObjectModel.pomIndex.waitLoaded(pomIndex.java:17)
+at PageObjectModel.pomIndex.pilihMenuHeader(pomIndex.java:33)
+at testScript.testkanggoPerusahaan.testScriptKanggo(testkanggoPerusahaan.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptKanggo -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScript.testkanggoPerusahaan@4ac3c60d]" started-at="2024-09-06T14:37:52 WIB" name="tearDown" finished-at="2024-09-06T14:37:53 WIB" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScript.testkanggoPerusahaan@3911c2a7]" started-at="2024-09-07T09:49:22 WIB" name="tearDown" finished-at="2024-09-07T09:49:22 WIB" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScriptKanggo status=SUCCESS method=testkanggoPerusahaan.testScriptKanggo()[pri:0, instance:testScript.testkanggoPerusahaan@4ac3c60d] output={null}]]]>
+                <![CDATA[[TestResult name=testScriptKanggo status=FAILURE method=testkanggoPerusahaan.testScriptKanggo()[pri:0, instance:testScript.testkanggoPerusahaan@3911c2a7] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at testScript.testkanggoPerusahaan.tearDown(testkanggoPerusahaan.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:785)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:761)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testScript.testkanggoPerusahaan -->
       <class name="testScript.testkanggoIndex">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScript.testkanggoIndex@1622f1b]" started-at="2024-09-06T14:37:44 WIB" name="setUp" finished-at="2024-09-06T14:37:46 WIB" duration-ms="2318" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScript.testkanggoIndex@7a69b07]" started-at="2024-09-07T09:49:17 WIB" name="setUp" finished-at="2024-09-07T09:49:21 WIB" duration-ms="3470" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,15 +186,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScriptKanggo()[pri:0, instance:testScript.testkanggoIndex@1622f1b]" started-at="2024-09-06T14:37:46 WIB" name="testScriptKanggo" finished-at="2024-09-06T14:37:46 WIB" duration-ms="273" status="PASS">
+        <test-method signature="testScriptKanggo()[pri:0, instance:testScript.testkanggoIndex@7a69b07]" started-at="2024-09-07T09:49:21 WIB" name="testScriptKanggo" finished-at="2024-09-07T09:49:21 WIB" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptKanggo -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScript.testkanggoIndex@1622f1b]" started-at="2024-09-06T14:37:46 WIB" name="tearDown" finished-at="2024-09-06T14:37:47 WIB" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScript.testkanggoIndex@7a69b07]" started-at="2024-09-07T09:49:21 WIB" name="tearDown" finished-at="2024-09-07T09:49:21 WIB" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScriptKanggo status=SUCCESS method=testkanggoIndex.testScriptKanggo()[pri:0, instance:testScript.testkanggoIndex@1622f1b] output={null}]]]>
+                <![CDATA[[TestResult name=testScriptKanggo status=SUCCESS method=testkanggoIndex.testScriptKanggo()[pri:0, instance:testScript.testkanggoIndex@7a69b07] output={null}]]]>
               </value>
             </param>
           </params>
@@ -91,29 +203,85 @@
         </test-method> <!-- tearDown -->
       </class> <!-- testScript.testkanggoIndex -->
       <class name="testScript.testkanggoKonsumen">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScript.testkanggoKonsumen@3911c2a7]" started-at="2024-09-06T14:37:47 WIB" name="setUp" finished-at="2024-09-06T14:37:49 WIB" duration-ms="2342" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.kanggo.id]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testScriptKanggo()[pri:0, instance:testScript.testkanggoKonsumen@3911c2a7]" started-at="2024-09-06T14:37:49 WIB" name="testScriptKanggo" finished-at="2024-09-06T14:37:50 WIB" duration-ms="1027" status="PASS">
+        <test-method signature="testScriptKanggo()[pri:0, instance:testScript.testkanggoKonsumen@1725dc0f]" started-at="2024-09-07T09:49:21 WIB" name="testScriptKanggo" finished-at="2024-09-07T09:49:21 WIB" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "wait" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "wait" is null
+at PageObjectModel.pomIndex.waitLoaded(pomIndex.java:17)
+at PageObjectModel.pomIndex.pilihMenuHeader(pomIndex.java:33)
+at testScript.testkanggoKonsumen.testScriptKanggo(testkanggoKonsumen.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptKanggo -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScript.testkanggoKonsumen@3911c2a7]" started-at="2024-09-06T14:37:50 WIB" name="tearDown" finished-at="2024-09-06T14:37:50 WIB" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScript.testkanggoKonsumen@1725dc0f]" started-at="2024-09-07T09:49:22 WIB" name="tearDown" finished-at="2024-09-07T09:49:22 WIB" duration-ms="15" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScriptKanggo status=SUCCESS method=testkanggoKonsumen.testScriptKanggo()[pri:0, instance:testScript.testkanggoKonsumen@3911c2a7] output={null}]]]>
+                <![CDATA[[TestResult name=testScriptKanggo status=FAILURE method=testkanggoKonsumen.testScriptKanggo()[pri:0, instance:testScript.testkanggoKonsumen@1725dc0f] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at testScript.testkanggoKonsumen.tearDown(testkanggoKonsumen.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:785)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:761)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
