@@ -1,0 +1,68 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mkanggo-qa-test:kanggo[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding kanggo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/nusatrip/Documents/workspace/kanggo/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/nusatrip/Documents/workspace/kanggo/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;34mINFO[m] Compiling 10 source files with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/nusatrip/Documents/workspace/kanggo/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.3.0:test[m [1m(default-test)[m @ [36mkanggo[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+Progress (1): 2.8/169 kBProgress (1): 5.5/169 kBProgress (1): 8.3/169 kBProgress (1): 11/169 kB Progress (1): 14/169 kBProgress (1): 18/169 kBProgress (1): 22/169 kBProgress (1): 26/169 kBProgress (1): 30/169 kBProgress (1): 34/169 kBProgress (1): 38/169 kBProgress (1): 42/169 kBProgress (1): 47/169 kBProgress (1): 51/169 kBProgress (1): 55/169 kBProgress (1): 59/169 kBProgress (1): 63/169 kBProgress (1): 67/169 kBProgress (1): 71/169 kBProgress (1): 75/169 kBProgress (1): 79/169 kBProgress (1): 83/169 kBProgress (1): 88/169 kBProgress (1): 92/169 kBProgress (1): 96/169 kBProgress (1): 100/169 kBProgress (1): 104/169 kBProgress (1): 108/169 kBProgress (1): 112/169 kBProgress (1): 116/169 kBProgress (1): 120/169 kBProgress (1): 124/169 kBProgress (1): 128/169 kBProgress (1): 133/169 kBProgress (1): 137/169 kBProgress (1): 141/169 kBProgress (1): 145/169 kBProgress (1): 149/169 kBProgress (1): 153/169 kBProgress (1): 157/169 kBProgress (1): 161/169 kBProgress (1): 165/169 kBProgress (1): 169 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar (169 kB at 468 kB/s)
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running kanggo_qa_test.kanggo.[1mAppTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in kanggo_qa_test.kanggo.[1mAppTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.4.2:jar[m [1m(default-jar)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/nusatrip/Documents/workspace/kanggo/target/kanggo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.2:install[m [1m(default-install)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] Installing /home/nusatrip/Documents/workspace/kanggo/pom.xml to /home/nusatrip/.m2/repository/kanggo-qa-test/kanggo/0.0.1-SNAPSHOT/kanggo-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/nusatrip/Documents/workspace/kanggo/target/kanggo-0.0.1-SNAPSHOT.jar to /home/nusatrip/.m2/repository/kanggo-qa-test/kanggo/0.0.1-SNAPSHOT/kanggo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/nusatrip/Documents/workspace/kanggo/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;33mWARNING[m] Overwriting artifact's file from /home/nusatrip/Documents/workspace/kanggo/target/kanggo-0.0.1-SNAPSHOT.jar to /home/nusatrip/Documents/workspace/kanggo/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/nusatrip/Documents/workspace/kanggo/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.3.0:test[m [1m(default-test)[m @ [36mkanggo[0;1m ---[m
+[[1;34mINFO[m] Skipping execution of surefire because it has already been run for this configuration
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.447 s
+[[1;34mINFO[m] Finished at: 2024-09-06T14:57:12+07:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

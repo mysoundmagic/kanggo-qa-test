@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "eb3ecfa6-c0e6-4380-a198-e0b860617557",
+		"_postman_id": "dfc98141-8b2e-49ba-a260-378fc2651e39",
 		"name": "reqress.in",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "10151088"
@@ -14,7 +14,8 @@
 					"script": {
 						"exec": [
 							"pm.environment.set(\"email\", \"eve.holt@reqres.in\");",
-							"pm.environment.set(\"password\", \"pistol\");"
+							"pm.environment.set(\"password\", \"pistol\");",
+							"tests[\"connection 200\"] = pm.response.code === 200;"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -60,7 +61,8 @@
 					"script": {
 						"exec": [
 							"var jsonData = pm.response.json();",
-							"pm.environment.set(\"token\", jsonData.token);"
+							"pm.environment.set(\"token\", jsonData.token);",
+							"tests[\"connection 200\"] = pm.response.code === 200;"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -100,7 +102,8 @@
 					"script": {
 						"exec": [
 							"var jsonData = pm.response.json();",
-							"pm.environment.set(\"user_id\", jsonData.id);"
+							"pm.environment.set(\"user_id\", jsonData.id);",
+							"tests[\"connection 201\"] = pm.response.code === 201;"
 						],
 						"type": "text/javascript",
 						"packages": {}
